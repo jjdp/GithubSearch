@@ -1,0 +1,23 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "plugins": [
+    "react",
+    "prettier",
+    "redux-saga"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "prettier/react"
+  ],
+  "rules": {
+    "prettier/prettier": ["error", { "singleQuote": true }],
+    "react/prop-types": 0
+  }
+}
